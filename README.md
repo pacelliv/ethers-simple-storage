@@ -93,10 +93,6 @@ node deploy.js
 
 <b>NOTE:</b> In case Windows Defender block the conection with Ganache, you'll need to go to `Windows Defender Firewall with Advanced Security`, look for Ganache and override the security. All icons associated with Ganache should have a checkmark.
 
-<div align="center">
-      <img width="750" src="./images/ganache-firewall.png"/>
-</div>
-
 ## Deploying to a testnet
 
 Install [Metamask](https://metamask.io/) or any other wallet to import the `private key`.
