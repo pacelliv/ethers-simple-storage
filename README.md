@@ -25,7 +25,7 @@
     -   Install the app, launch it and if the window looks like the below image the installation was correct.
     -   You can also use [ganache-cli](https://www.npmjs.com/package/ganache-cli) and [hardhat](https://hardhat.org/) as development chains.
 
-    <div align="center">
+    <div>
       <img width="350" src="./images/ganache-picture.png"/>
     </div>
 
@@ -58,7 +58,7 @@ yarn
 3. Save the workspace.
 4. Copy the `RPC SERVER`.
 
-<div>
+<div align="center">
       <img width="750" src="./images/ganache-top.JPG"/>
 </div>
 
@@ -93,7 +93,7 @@ node deploy.js
 
 <b>NOTE:</b> In case Windows Defender block the conection with Ganache, you'll need to go to `Windows Defender Firewall with Advanced Security`, look for Ganache and override the security. All icons associated with Ganache should have a checkmark.
 
-<div>
+<div align="center">
       <img width="750" src="./images/ganache-firewall.png"/>
 </div>
 
