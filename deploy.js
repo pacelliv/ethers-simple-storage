@@ -4,7 +4,6 @@ require("dotenv").config()
 
 const RPC_URL_GOERLI = process.env.RPC_URL_GOERLI
 const PRIVATE_KEY = process.env.PRIVATE_KEY
-const RPC_URL = process.env.RPC_URL
 
 async function main() {
     const provider = new ethers.providers.JsonRpcProvider(RPC_URL_GOERLI)

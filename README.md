@@ -5,7 +5,7 @@
 ## Objectives:
 
 -   Introduction to the [ethers.js](https://docs.ethers.io/v5/) library.
--   Introduction to deploying a contract to a local blockchain (Ganaches GUI) or to a testnet.
+-   Introduction to deploying a contract to a local blockchain (Ganaches UI) or to a testnet.
 -   This contract allows an user to store a number.
 
 # Quickstart
@@ -25,7 +25,7 @@
     -   Install the app, launch it and if the window looks like the below image the installation was correct.
     -   You can also use [ganache-cli](https://www.npmjs.com/package/ganache-cli) and [hardhat](https://hardhat.org/) as development chains.
 
-    <div>
+    <div align="center">
       <img width="350" src="./images/ganache-picture.png"/>
     </div>
 
@@ -46,12 +46,12 @@ yarn
 
 # Usage
 
-## Using Ganache GUI
+## Using Ganache UI
 
 1. Launch ganache and click on `quickstart` to run the local blockchain.
 2. Go to settings and select a WSL hostname, save and restart the application.
 
-<div>
+<div align="center">
       <img width="750" src="./images/ganache-server.png"/>
 </div>
 
@@ -68,30 +68,24 @@ yarn
 RPC_URL=http://172.28.208.1:7545
 ```
 
-6. Select an account, click on the key icon.
-
-7. Copy the `private key` and save it as an `environment variable` in your `.env` file, example:
+6. Select an account, copy the `private key` and save it as an `environment variable` in your `.env` file, example:
 
 ```
 PRIVATE_KEY=11ee3108a03081fe260ecdc106554d09d9d1209bcafd46942b10e02943effc4a
 ```
 
-<div>
-      <img width="750" src="./images/ganache-private-key.JPG"/>
-</div>
-
-8. Compile your code by running:
+7. Compile your code by running:
 
 ```
 yarn compile
 ```
 
-9. Two files will be created:
+8. Two files will be created:
 
     - `SimpleStorage_sol_SimpleStorage.abi`
     - `SimpleStorage_sol_SimpleStorage.bin`
 
-10. Run your application
+9. Run your application
 
 ```
 node deploy.js
